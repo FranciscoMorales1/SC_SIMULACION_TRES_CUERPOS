@@ -163,7 +163,7 @@ El problema abordado es una variante del clásico Problema del Viajante (TSP), e
    \]
    donde \( d_{ij} \) es la distancia euclidiana fija y \( v(t) \) es la velocidad promedio en la vía, la cual varía según la franja horaria (Hora Punta Mañana: 15 km/h, Valle: 40 km/h, Punta Tarde: 20 km/h, Noche: 60 km/h).
 
-2. **Ventanas de Tiempo (Time Windows):** Cada cliente debe ser atendido dentro de un intervalo horario específico \( [e_i, l_i] \). En este modelo, la restricción es **blanda**: si el vehículo llega después de \( l_i \), se aplica una penalización proporcional al retraso (factor \( \lambda = 10 \)). Si llega antes de \( e_i \), espera hasta la hora de apertura (espera pasiva que suma tiempo al recorrido).
+
 
 **Definición del Grafo:**
 - \( V = \{0, 1, 2, \dots, n\} \): Nodo 0 es el depósito, los nodos \( 1 \) a \( n \) son los clientes.
@@ -203,7 +203,6 @@ El código se divide en cinco bloques funcionales principales:
 - Simula el recorrido de una ruta dada.
 - Mantiene un reloj interno (`tiempo_actual`).
 - Acumula el `costo_viaje` sumando \( d_{ij} / v(t) \) en cada arista.
-- Acumula la `penalizacion` aplicando \( (A_i - l_i) \times 10 \) si se llega tarde a un cliente.
 - Ajusta el reloj si se llega temprano (espera hasta `e_i`).
 
 ### 3.3. Algoritmo ACO (Clase `ACO`)
