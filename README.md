@@ -222,7 +222,7 @@ El código se divide en cinco bloques funcionales principales:
 - Por cada combinación, ejecuta el ACO **2 veces** (con semillas distintas) para mitigar el efecto del azar, y se queda con el mejor costo de esas 2 ejecuciones.
 - Selecciona la combinación que produjo el menor costo global.
 
-# README – Resultados del TD-TSP con ACO (35 clientes)
+
 
 ## Resumen de resultados
 
