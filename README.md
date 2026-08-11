@@ -92,8 +92,8 @@ Los encuentros cercanos provocan aceleraciones enormes. El integrador adaptativo
 El caos implica que el sistema **no se repite**. La trayectoria no se queda en una curva o superficie simple; explora un **volumen** del espacio 3D a lo largo del tiempo. Al hacer el histograma, los puntos llenan muchas más celdas que en el caso de 2 cuerpos, resultando en la entropía de Shannon más grande. El sistema se "esparce" por todo el espacio disponible.
 
 
-- `<img width="1117" height="1160" alt="tres_cuerpos_trayectorias" src="https://github.com/user-attachments/assets/a8a685ba-bb95-40ee-b6d1-2beabdee5c81" />
-`
+- <img width="1117" height="1160" alt="tres_cuerpos_trayectorias" src="https://github.com/user-attachments/assets/a8a685ba-bb95-40ee-b6d1-2beabdee5c81" />
+
 
 ---
 
@@ -120,7 +120,7 @@ El cuarto cuerpo, con estas condiciones iniciales específicas, **no se acerca l
 Aunque no hay caos, tenemos **cuatro cuerpos moviéndose** en lugar de dos o tres. La configuración general ocupa una porción mayor del espacio que la elipse de 2 cuerpos, pero como el movimiento es más regular (no llena un volumen de forma caótica), no alcanza la alta entropía del caso caótico de 3 cuerpos. Se sitúa justo en el punto medio.
 
 
-- `<img width="1117" height="1160" alt="cuatro_cuerpos_trayectorias" src="https://github.com/user-attachments/assets/4cf0c632-67ee-4184-8a10-bd309b7597e7" />
+- <img width="1117" height="1160" alt="cuatro_cuerpos_trayectorias" src="https://github.com/user-attachments/assets/4cf0c632-67ee-4184-8a10-bd309b7597e7" />
 `
 
 
